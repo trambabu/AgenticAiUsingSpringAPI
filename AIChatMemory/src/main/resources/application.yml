@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-boot-ai-chat-memory
+  ai:
+    openai:
+      api-key: "<ypur-gemini-api-key>"
+      base-url: https://generativelanguage.googleapis.com/v1beta/openai
+      chat:
+        completions-path: /chat/completions
+        options:
+          model: gemini-2.0-flash-exp
+          
+          
+          
